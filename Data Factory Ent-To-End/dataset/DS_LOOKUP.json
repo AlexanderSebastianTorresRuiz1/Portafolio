@@ -1,0 +1,21 @@
+{
+	"name": "DS_LOOKUP",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "last_load.json",
+				"folderPath": "monitor/last_carga",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

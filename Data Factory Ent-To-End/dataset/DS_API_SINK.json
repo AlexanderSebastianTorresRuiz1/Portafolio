@@ -1,0 +1,21 @@
+{
+	"name": "DS_API_SINK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DimAirpot.json",
+				"folderPath": "github",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

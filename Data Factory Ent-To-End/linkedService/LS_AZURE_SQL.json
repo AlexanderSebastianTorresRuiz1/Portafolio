@@ -1,0 +1,24 @@
+{
+	"name": "LS_AZURE_SQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "serveron2025de.database.windows.net",
+			"database": "Adventure2022",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adm",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KEYVAULT",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "adm"
+			}
+		}
+	}
+}
