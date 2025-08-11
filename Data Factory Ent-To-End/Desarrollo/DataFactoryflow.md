@@ -126,5 +126,16 @@ Finalmente, en nuestro proyecto aplicamos operaciones de join para combinar tabl
 </p>
 
 ## 🐈‍⬛ GitHub
+Finalmente, se subimos el proyecto a nuestro repositorio en GitHub, donde puede encontrarse en la rama principal (master branch).
 
-## 📚 Conclusion
+<p align="center">
+  <img src="../image/GitHub.png" alt="Diagrama de Arquitectura">
+</p>
+
+## 📚 Conclusiones
+
+- Este proyecto me ayudó a desarrollar habilidades en la automatización y orquestación de pipelines con Azure Data Factory.
+
+- Gracias a este proyecto, pude comprender mejor la importancia de la arquitectura Medallion para mejorar la calidad y organización de los datos.
+
+- La implementación de alertas automáticas y el uso de key vault me permitió fortalecer mis conocimientos en seguridad y monitoreo en Azure.
